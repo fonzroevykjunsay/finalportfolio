@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+  canvas{
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width:600px){
+      canvas{
+          width: 90%;
+      }
+  }
